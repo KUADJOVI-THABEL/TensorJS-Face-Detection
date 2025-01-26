@@ -80,7 +80,7 @@ const renderPrediction = async () => {
       if (annotateBoxes) {
         const landmarks = predictions[i].landmarks;
 
-        ctx.fillStyle = "blue";
+        ctx.fillStyle = "green";
         for (let j = 0; j < landmarks.length; j++) {
           const x = landmarks[j][0];
           const y = landmarks[j][1];
